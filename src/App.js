@@ -1,14 +1,19 @@
 import React, { Component } from "react";
-import { Container, Button } from "@material-ui/core";
+import { Route, Switch } from "react-router-dom";
+
+/*** COMPONENT ***/
+import Home from "./Screens/Home";
+import About from "./Screens/About";
+import NotFoundPage from "./Screens/Notfound";
 
 class App extends Component {
   render() {
     return (
-      <Container>
-        <Button variant="contained" color="primary">
-          Open
-        </Button>
-      </Container>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route component={NotFoundPage} />
+      </Switch>
     );
   }
 }
