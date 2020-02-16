@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <Container>
         <Button variant="contained" color="primary">
-          Open
+          Open Dialog
         </Button>
       </Container>
     );
