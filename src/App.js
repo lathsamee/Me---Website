@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 
 /*** COMPONENT ***/
 import Home from "./Screens/Home";
-import About from "./Screens/About";
 import NotFoundPage from "./Screens/Notfound";
 import Loading4 from "./Exports/Animetions/Loading4";
 
@@ -12,7 +11,6 @@ class App extends Component {
     return (
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
         <Route component={NotFoundPage} />
       </Switch>
     );
