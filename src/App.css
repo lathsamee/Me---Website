@@ -195,3 +195,18 @@
   }
 }
 /* END */
+
+/* IMG */
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.button {
+  margin-top: 1em;
+  text-align: center;
+}
