@@ -5,13 +5,13 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./Screens/Home";
 import About from "./Screens/About";
 import NotFoundPage from "./Screens/Notfound";
-import Loading2 from "./Exports/Animetions/Loading2";
+import Loading3 from "./Exports/Animetions/Loading3";
 
 class App extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={Loading2} />
+        <Route exact path="/" component={Loading3} />
         <Route path="/about" component={About} />
         <Route component={NotFoundPage} />
       </Switch>
