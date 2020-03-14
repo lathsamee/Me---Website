@@ -87,7 +87,7 @@
 /* END */
 
 /* LOADING 3 */
-body {
+.body {
   margin: 0;
   height: 100vh;
   display: flex;

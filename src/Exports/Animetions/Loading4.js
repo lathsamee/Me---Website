@@ -3,13 +3,15 @@ import "../../App.css";
 
 const Loading4 = props => {
   return (
-    <div class="multi-spinner-container">
-      <div class="multi-spinner">
+    <div class="body">
+      <div class="multi-spinner-container">
         <div class="multi-spinner">
           <div class="multi-spinner">
             <div class="multi-spinner">
               <div class="multi-spinner">
-                <div class="multi-spinner"></div>
+                <div class="multi-spinner">
+                  <div class="multi-spinner"></div>
+                </div>
               </div>
             </div>
           </div>

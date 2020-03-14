@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={Loading4} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route component={NotFoundPage} />
       </Switch>
