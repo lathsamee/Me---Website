@@ -196,17 +196,28 @@
 }
 /* END */
 
-/* IMG */
+/* BASIC STYLE */
+.boxImg {
+  text-align: center;
+  margin-top: 2em;
+  background-color: blue;
+}
+
 .img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  display: block;
-  margin: 0 auto;
+}
+
+.boxContack {
+  text-align: left;
   margin-top: 2em;
+  background-color: burlywood;
 }
 
 .button {
   margin-top: 1em;
   text-align: center;
+  padding: 20;
+  background-color: cadetblue;
 }

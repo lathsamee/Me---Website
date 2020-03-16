@@ -10,26 +10,39 @@ class Home extends Component {
     return (
       <Container style={{ flexGrow: 1 }}>
         <Grid container>
+          {/*** IMAGE ***/}
           <Grid item xs={6}>
-            <img src={profile} className="img" />
+            <div className="boxImg">
+              <img src={profile} className="img" />
+            </div>
           </Grid>
+
+          {/*** CONTACKS ***/}
           <Grid item xs={6}>
-            <span>User name</span>
-            <span>last name</span>
-            <p>Address</p>
-            <p>Phone</p>
-            <p>Email</p>
-            <p>Website</p>
-            <p>OBJECTIVE</p>
+            <div className="boxContack">
+              <span>User name</span>
+              <span>last name</span>
+              <p>Address</p>
+              <p>Phone</p>
+              <p>Email</p>
+              <p>Website</p>
+              <p>OBJECTIVE</p>
+            </div>
           </Grid>
-          <Grid item xs={12} spacing={4} style={{ textAlign: "center" }}>
-            <Button>EXPERIENCE</Button>
-            <Button>EDUCATION</Button>
-            <Button>SKILLS</Button>
-            <Button>LANGUAGE</Button>
-            <Button>SOFTWARE</Button>
-            <Button>CERTIFICATIONS</Button>
+
+          {/*** BUTTON ***/}
+          <Grid item xs={12} spacing={4}>
+            <div className="button">
+              <Button>EXPERIENCE</Button>
+              <Button>EDUCATION</Button>
+              <Button>SKILLS</Button>
+              <Button>LANGUAGE</Button>
+              <Button>SOFTWARE</Button>
+              <Button>CERTIFICATIONS</Button>
+            </div>
           </Grid>
+
+          {/*** CONTENTS ***/}
           <Grid></Grid>
         </Grid>
       </Container>
